@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Title;
+    font-family: 'Title';
     src: url("CSS/Fonts/Be My Glittertine.ttf");
 }
 
@@ -264,7 +264,7 @@ h1 {
 }
 
 @font-face {
-    font-family: Body;
+    font-family: 'Body';
     src: url("CSS/Fonts/LadylikeBB.ttf");
 }
 
