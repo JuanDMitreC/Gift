@@ -1,0 +1,30 @@
+.body {
+    margin: 20px;
+}
+
+.card {
+    display: flex;
+
+    border-bottom: 10px solid violet;
+
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 20px;
+
+    justify-content: space-around;
+
+    width: 55%;
+
+    background: lightblue;
+}
+
+.profile-pic-img {
+    width: 175px;
+    height: auto;
+}
+
+.bio {
+    text-align: center;
+}

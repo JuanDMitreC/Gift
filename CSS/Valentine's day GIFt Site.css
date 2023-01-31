@@ -1,0 +1,328 @@
+@font-face {
+    font-family: Title;
+    src: url("C:/Users/jmitr/Desktop/Web developing/CSS/Fonts/Be My Glittertine.ttf");
+}
+
+body {
+    margin-top: 40px;
+    text-align: center;
+    background: blanchedalmond;
+}
+
+.font-style-1 {
+    font-family: 'Title';
+}
+
+h1 {
+    text-shadow: 0px 0px 25px rgb(190, 58, 58);
+    font-size: 75px;
+}
+
+#name {
+    text-shadow: 0px 0px 15px rgb(190, 58, 58);
+    margin-top: -10px;
+    font-size: 35px;
+}
+
+#date {
+    text-shadow: 0px 0px 15px rgb(190, 58, 58);
+    margin-top: -25px;
+    font-size: 25px;
+}
+
+#image-border {
+    border: 25px ridge salmon;
+    border-radius: 25%;
+    padding: 20px;
+}
+
+.portada-img {
+    margin-top: -50px;
+
+    display: flex;
+
+    height: 400px;
+    width: auto;
+
+    justify-content: space-evenly;
+
+    padding: 20px;
+}
+
+/*FORMATEO DE IMÁGENES*/
+
+#section {
+    margin-top: 200px;
+}
+
+.gift-box-1 {
+    width: 960px;
+    height: 1280px;
+    border: 10px solid #B06653;
+    margin: 0 auto;
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Gift box.jpg");
+    background-size: cover;
+}
+
+.gift-box-1:hover {
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Segunda cita.JPG");
+    background-size: cover;
+}
+
+.gift-box-2 {
+    width: 640px;
+    height: 1136px;
+    border: 10px solid #B06653;
+    margin: 0 auto;
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Gift box.jpg");
+    background-size: cover;
+}
+
+.gift-box-2:hover {
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Primera visita.PNG");
+    background-size: cover;
+}
+
+.gift-box-2-1 {
+    width: 960px;
+    height: 1136px;
+    border: 10px solid #B06653;
+    margin: 0 auto;
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Gift box.jpg");
+    background-size: cover;
+}
+
+.gift-box-2-1:hover {
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Foto favorita.JPG");
+    background-size: cover;
+}
+
+.gift-box-3 {
+    width: 720px;
+    height: 1280px;
+    border: 10px solid #B06653;
+    margin: 0 auto;
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Gift box.jpg");
+    background-size: cover;
+}
+
+.gift-box-3:hover {
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Viaje a Panamá.JPG");
+    background-size: cover;
+}
+
+.gift-box-4 {
+    width: 960px;
+    height: 1280px;
+    border: 10px solid #B06653;
+    margin: 0 auto;
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Gift box.jpg");
+    background-size: cover;
+}
+
+.gift-box-4:hover {
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Sila triste (antes).JPG");
+    background-size: cover;
+}
+
+.gift-box-5 {
+    width: 720px;
+    height: 1280px;
+    border: 10px solid #B06653;
+    margin: 0 auto;
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Gift box.jpg");
+    background-size: cover;
+}
+
+.gift-box-5:hover {
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Sila feliz (después).JPG");
+    background-size: cover;
+}
+
+.gift-box-7 {
+    width: 1280px;
+    height: 960px;
+    border: 10px solid #B06653;
+    margin: 0 auto;
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Gift box.jpg");
+    background-size: cover;
+}
+
+.gift-box-7:hover {
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Cumpleaños de Sila.JPG");
+    background-size: cover;
+}
+
+/*Together bit*/
+
+.together {
+    display: flex;
+}
+
+:root {
+    --anchura: 300px;
+    --altura: 300px;
+    --grosor: 2px;
+}
+
+.gift-box-8 {
+    width: var(--anchura);
+    height: var(--altura);
+    border: var(--grosor) solid #B06653;
+    margin: 0 auto;
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Gift 1.jpg");
+    background-size: cover;
+}
+
+.gift-box-8:hover {
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Together/1.JPG");
+    background-size: cover;
+}
+
+.gift-box-9 {
+    width: var(--anchura);
+    height: var(--altura);
+    border: var(--grosor) solid #B06653;
+    margin: 0 auto;
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Gift 2.jpg");
+    background-size: cover;
+}
+
+.gift-box-9:hover {
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Together/2.JPEG");
+    background-size: cover;
+}
+
+.gift-box-10 {
+    width: var(--anchura);
+    height: var(--altura);
+    border: var(--grosor) solid #B06653;
+    margin: 0 auto;
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Gift 3.jpg");
+    background-size: cover;
+}
+
+.gift-box-10:hover {
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Together/3.JPG");
+    background-size: cover;
+}
+
+.gift-box-11 {
+    width: var(--anchura);
+    height: var(--altura);
+    border: var(--grosor) solid #B06653;
+    margin: 0 auto;
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Gift 4.jpg");
+    background-size: cover;
+}
+
+.gift-box-11:hover {
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Together/4.JPG");
+    background-size: cover;
+}
+
+.gift-box-12 {
+    width: var(--anchura);
+    height: var(--altura);
+    border: var(--grosor) solid #B06653;
+    margin: 0 auto;
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Gift 5.jpg");
+    background-size: cover;
+}
+
+.gift-box-12:hover {
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Together/5.JPG");
+    background-size: cover;
+}
+
+.gift-box-13 {
+    width: var(--anchura);
+    height: var(--altura);
+    border: var(--grosor) solid #B06653;
+    margin: 0 auto;
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Gift 6.jpg");
+    background-size: cover;
+}
+
+.gift-box-13:hover {
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Together/6.JPG");
+    background-size: cover;
+}
+
+.gift-box-14 {
+    width: var(--anchura);
+    height: var(--altura);
+    border: var(--grosor) solid #B06653;
+    margin: 0 auto;
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Gift 7.jpg");
+    background-size: cover;
+}
+
+.gift-box-14:hover {
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Together/7.JPG");
+    background-size: cover;
+}
+
+@font-face {
+    font-family: Body;
+    src: url("C:/Users/jmitr/Desktop/Web developing/CSS/Fonts/LadylikeBB.ttf");
+}
+
+.body-2 {
+    margin-top: 100px;
+    justify-content: center;
+    font-family: 'Body';
+    font-size: 40px;
+}
+
+/* Medicine student*/
+
+:root { 
+    --medheight: 500px;
+}
+
+.med {
+    display: flex;
+    border: 3px double #cf4623;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.medical1 {
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Med-folder/Cover/cover1.jpg");
+    background-size: cover;
+    border: 1px solid salmon;
+    height: var(--medheight);
+    width: 400px;
+}
+
+.medical1:hover {
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Med-folder/Sila/Doctora.PNG");
+    background-size: cover;
+}
+
+.medical2 {
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Med-folder/Cover/cover2.jpg");
+    background-size: cover;
+    border: 1px solid salmon;
+    height: var(--medheight);
+    width: 400px;
+}
+
+.medical2:hover {
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Med-folder/Sila/Doctora2.JPG");
+    background-size: cover;
+}
+
+.medical3 {
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Med-folder/Cover/cover3.jpg");
+    background-size: cover;
+    border: 1px solid salmon;
+    height: var(--medheight);
+    width: 400px;
+}
+
+.medical3:hover {
+    background-image: url("C:/Users/jmitr/Desktop/Web developing/Valentine's images/Med-folder/Sila/Doctora3.JPG");
+    background-size: cover;
+}
