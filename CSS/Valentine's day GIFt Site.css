@@ -60,7 +60,7 @@ h1 {
     height: 1280px;
     border: 10px solid #B06653;
     margin: 0 auto;
-    background-image: url("Valentine's images\Gift box.jpg");
+    background: url("Valentine's images\Gift box.jpg");
     background-size: cover;
 }
 
