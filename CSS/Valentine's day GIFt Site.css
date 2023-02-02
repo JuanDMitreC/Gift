@@ -75,7 +75,7 @@ h1 {
     border: 10px solid #B06653;
     margin: 0 auto;
     background-image: url("Valentine's images/Gift box.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .gift-box-2:hover {
